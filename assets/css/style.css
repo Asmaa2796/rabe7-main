@@ -246,7 +246,7 @@ header .text ,.about h2 ,.about > p,.download_app ,footer .logo,footer p
 footer .logo img {margin: auto;display: block;margin-bottom: 10px;}
 .features .feature {height: 264px;}
 }
-@media (width >= 567px) {
+@media (width <= 567px) {
     .features .feature {
         height: 264px;
     }
