@@ -231,7 +231,7 @@ footer .social a:hover {background-color: var(--sub-color);color: #fff;}
     margin-right: 40px;
     display: inline-block;
   }
-  .features .feature_card .before {width: 89%;}
+  .features .feature_card .before {width: 90%;}
   .text-lg {
     font-size: medium;
 }
@@ -244,5 +244,10 @@ h2 {font-size: 29px;}
 header .text ,.about h2 ,.about > p,.download_app ,footer .logo,footer p
 {text-align: center;}
 footer .logo img {margin: auto;display: block;margin-bottom: 10px;}
-.features .feature {height: auto;}
+.features .feature {height: 264px;}
+}
+@media (width <= 567px) {
+    .features .feature {
+        height: 264px;
+    }
 }
