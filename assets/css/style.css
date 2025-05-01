@@ -231,7 +231,7 @@ footer .social a:hover {background-color: var(--sub-color);color: #fff;}
     margin-right: 40px;
     display: inline-block;
   }
-  .features .feature_card .before {width: 89%;}
+  .features .feature_card .before {width: 90%;}
   .text-lg {
     font-size: medium;
 }
