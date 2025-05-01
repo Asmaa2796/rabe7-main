@@ -244,5 +244,10 @@ h2 {font-size: 29px;}
 header .text ,.about h2 ,.about > p,.download_app ,footer .logo,footer p
 {text-align: center;}
 footer .logo img {margin: auto;display: block;margin-bottom: 10px;}
-.features .feature {height: auto;}
+.features .feature {height: 264px;}
+}
+@media (width >= 567px) {
+    .features .feature {
+        height: 264px;
+    }
 }
